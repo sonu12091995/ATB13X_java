@@ -1,7 +1,4 @@
-package ATB01;
-
-import java.time.Duration;
-import java.util.List;
+package classes_Type_Created;
 
 public class Lab002 {
     public static void main(String[] args) {

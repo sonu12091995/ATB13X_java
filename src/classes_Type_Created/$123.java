@@ -1,6 +1,4 @@
-package ATB01;
-
-import java.sql.SQLOutput;
+package classes_Type_Created;
 
 public class $123 {
     public static void main(String[] args) {
