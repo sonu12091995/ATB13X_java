@@ -1,4 +1,4 @@
-package LOOPs;
+package For_loop;
 
 public class forLoop_decrement {
     public static void main(String[] args) {

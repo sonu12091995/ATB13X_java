@@ -1,4 +1,4 @@
-package LOOPs;
+package For_loop;
 
 public class For_Loop_counting {
     public static void main(String[] args) {

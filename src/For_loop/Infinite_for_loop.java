@@ -1,4 +1,4 @@
-package LOOPs;
+package For_loop;
 
 public class Infinite_for_loop {
     public static void main(String[] args) {

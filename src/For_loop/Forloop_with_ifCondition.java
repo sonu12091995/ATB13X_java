@@ -1,4 +1,4 @@
-package LOOPs;
+package For_loop;
 
 public class Forloop_with_ifCondition {
     public static void main(String[] args) {
