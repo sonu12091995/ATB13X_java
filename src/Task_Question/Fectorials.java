@@ -1,11 +1,7 @@
-package For_loop;
-
+package Task_Question;
 import java.util.Scanner;
-
-public class Fectorial {
-
+public class Fectorials {
     public static void main(String[] args) {
-
         // Factorial Program
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Factorial Program\nEnter the number!");
@@ -17,6 +13,8 @@ public class Fectorial {
         int number = scanner.nextInt();
 
         long factorial = 1;
+
+
 
         if(number < 0){
             System.out.println("Negative Factorial is not allowed!");
@@ -34,5 +32,6 @@ public class Fectorial {
         }
 
         System.out.println("Factorial is -> " + factorial); // Print the calculated factorial
+
     }
 }
