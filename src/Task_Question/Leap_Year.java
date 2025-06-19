@@ -15,12 +15,12 @@ public class Leap_Year {
         System.out.println("Enter the year");
 
 
-        /* handle String value
+         //handle String value
         if (!scanner.hasNextInt()){
 
             System.out.println("Please add the intiger value");
             return;
-        }*/
+        }
 
         int year = scanner.nextInt();
 
