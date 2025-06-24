@@ -1,6 +1,6 @@
 package Task_Question;
 
-public class Prime_number {
+public class Prime_number__to_100 {
     public static void main(String[] args) {
 
         System.out.println("Prime numbers from 1 to 100:");

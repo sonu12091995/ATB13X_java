@@ -20,5 +20,8 @@ public class Reverse_string_palindrome {
             System.out.println("This is not palindrome");
         }
 
+
+
+
     }
 }

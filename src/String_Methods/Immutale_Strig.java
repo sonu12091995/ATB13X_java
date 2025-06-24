@@ -11,7 +11,7 @@ public class Immutale_Strig {
 
         String s2 = "hello";
         String s3 = s1.concat("world"); // Concat, basically add the value or merge the value in the end.
-        System.out.println(s3);// outputhello
+        System.out.println(s3);// outputn helloworld
 
 
 
