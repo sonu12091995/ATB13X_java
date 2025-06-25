@@ -7,23 +7,22 @@ public class Consonants_vowels_count {
         int consonants = 0;
         s = s.toLowerCase();
 
-        for (int i=0; i<s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
 
-            if (ch >='a' && ch <='z')
-            {
-                if (ch=='a'|| ch=='e' || ch=='i'|| ch=='o' || ch=='u')
-                {
+            if (ch >= 'a' && ch <= 'z') {
+                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                     vowels++;
 
-                }else
-                {
+                } else {
                     consonants++;
                 }
-            }
-        }
-        System.out.println("This the the vowels "+ vowels);
-        System.out.println("This the the consonants "+ consonants);
 
+            }
+
+        }
+
+        System.out.println("This the the vowels " + vowels);
+        System.out.println("This the the consonants " + consonants);
     }
 }

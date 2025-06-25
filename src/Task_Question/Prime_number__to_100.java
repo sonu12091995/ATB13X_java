@@ -26,5 +26,29 @@ public class Prime_number__to_100 {
 
 
         }
-}
+
+
+        //Check if a Number is Prime
+
+        int number = 7;  // You can change this to test other numbers
+        boolean isPrime = true;
+
+        if (number <= 1) {
+            isPrime = false;
+        }
+
+        // Check if divisible by any number from 2 to number-1
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime) {
+            System.out.println(number + " is a Prime Number.");
+        } else {
+            System.out.println(number + " is NOT a Prime Number.");
+        }
+    }
 }
