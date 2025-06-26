@@ -37,7 +37,7 @@ equals(): false, equalsIgnoreCase(): true, compareTo(): -32
         System.out.println(p1==p2);//true
         System.out.println(p.equals(p1));// false
         System.out.println(p1.equalsIgnoreCase(p2)); //true
-        System.out.println(p2.compareTo(p1));
+        System.out.println(p2.compareTo(p1));//-32
 
 
         /*
@@ -53,9 +53,9 @@ equals(): false, equalsIgnoreCase(): true, compareTo(): -32
 
         // Test String
         long start1 = System.currentTimeMillis();
-        String s = "";
+        String s1 = "";
         for (int i = 0; i < iterations; i++) {
-            s += i;
+            s1 += i;
         }
         long end1 = System.currentTimeMillis();
         System.out.println("String: " + (end1 - start1) + "ms");
