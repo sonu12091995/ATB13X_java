@@ -2,7 +2,7 @@ package Array_2__D;
 
 import java.util.Scanner;
 
-public class Right_trangle {
+public class Right_trangle_Patern {
     public static void main(String[] args) {
 
 

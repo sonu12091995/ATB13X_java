@@ -1,7 +1,9 @@
 package Array_2__D;
 
-public class Left_Trangle {
+public class Left_Trangle_Patern {
     public static void main(String[] args) {
+
+        //https://www.programiz.com/online-compiler/2RZRqkiVPCIrz
      /*for (int i = n; i >= 1; i--)
 
 Outer loop starts from n and goes down to 1.
