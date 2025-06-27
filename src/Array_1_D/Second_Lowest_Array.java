@@ -1,9 +1,9 @@
-package Array_Task;
+package Array_1_D;
 
 public class Second_Lowest_Array {
     public static void main(String[] args) {
         int[] num = {20, 30, 40, 50, 60};
-
+        //https://www.programiz.com/online-compiler/0I9I3RCI9bwja
         int lowest = num[0];
         int secondLowest = Integer.MAX_VALUE;
 

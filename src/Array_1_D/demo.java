@@ -1,4 +1,4 @@
-package Array_Task;
+package Array_1_D;
 
 public class demo {
 

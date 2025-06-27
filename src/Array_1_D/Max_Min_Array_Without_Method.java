@@ -1,8 +1,8 @@
-package Array_Task;
+package Array_1_D;
 
 public class Max_Min_Array_Without_Method {
     public static void main(String[] args) {
-
+       // https://www.programiz.com/java-programming/online-compiler/
         int array [] = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
         int max = array[0];
         // logic
@@ -17,7 +17,7 @@ public class Max_Min_Array_Without_Method {
 
 
 
-        // Minimum Array
+        // Minimum Array    https://www.programiz.com/online-compiler/0939vR8cDiZsY
 
         int array1 [] = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
         int min = array1[0];

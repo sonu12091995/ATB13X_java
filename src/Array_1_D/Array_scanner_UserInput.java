@@ -1,9 +1,11 @@
-package Array_Task;
+package Array_1_D;
 
 import java.util.Scanner;
 
 public class Array_scanner_UserInput {
     public static void main(String[] args) {
+       //https://www.programiz.com/online-compiler/3uyukFVjGH3hK
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array(int) only");
         int size =  sc.nextInt();

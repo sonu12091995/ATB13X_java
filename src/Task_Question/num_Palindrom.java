@@ -2,6 +2,8 @@ package Task_Question;
 
 public class num_Palindrom {
     public static void main(String[] args) {
+
+        //https://www.programiz.com/online-compiler/9SqSbttMP6dV5
         int num = 121;           // Original number to check
         int temp = num;          // Copy of the original number (we will change temp)
         int rev = 0;             // Variable to store the reversed number

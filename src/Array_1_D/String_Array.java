@@ -1,6 +1,4 @@
-package Array_Task;
-
-import java.io.OutputStream;
+package Array_1_D;
 
 public class String_Array {
     public static void main(String[] args) {

@@ -1,7 +1,8 @@
-package Array_Task;
+package Array_1_D;
 
 public class Sum_Array {
     public static void main(String[] args) {
+// Sum--    https://www.programiz.com/online-compiler/5eYeuZroL8OL5
 
         int num []  = {23,33,45};
         int sum = 0;
@@ -11,7 +12,5 @@ public class Sum_Array {
         }
         System.out.println(num);
 
-        int avg = sum/3;
-        System.out.println(avg);
     }
 }

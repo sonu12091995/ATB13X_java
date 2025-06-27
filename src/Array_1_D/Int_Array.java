@@ -1,4 +1,4 @@
-package Array_Task;
+package Array_1_D;
 
 public class Int_Array {
     public static void main(String[] args) {
