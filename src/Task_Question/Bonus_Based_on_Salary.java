@@ -3,6 +3,7 @@ package Task_Question;
 import java.util.Scanner;
 
 public class Bonus_Based_on_Salary {
+
     public static void main(String[] args) {
        /* Define the bonus structure based on salary and years of experience.
            :- If years of experience is less than 1 year: No bonus.

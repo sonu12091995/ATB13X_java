@@ -6,9 +6,9 @@ public class index {
         String s1 = "madam";
         // Returns the index within this string of the
         // first occurrence of the specified substring.
-        System.out.println(s1.indexOf("a"));
+        System.out.println(s1.indexOf("a"));//1
 
-        System.out.println(s1.lastIndexOf("dam"));
+        System.out.println(s1.lastIndexOf("dam"));//2
 
     }
 }

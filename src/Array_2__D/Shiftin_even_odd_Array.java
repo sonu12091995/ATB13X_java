@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Shiftin_even_odd_Array {
     public static void main(String[] args) {
-
+//https://www.programiz.com/online-compiler/9qbqamdnG5bv8
         int[] arr = {2, 5, 8, 7, 1, 3, 6, 4, 5, 9,0};
         int[] result = new int[arr.length];
 
