@@ -1,4 +1,4 @@
-package oops;
+package oops_Class_object;
 
 public class class_object {
 
