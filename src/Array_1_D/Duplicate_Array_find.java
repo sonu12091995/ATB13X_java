@@ -1,6 +1,6 @@
 package Array_1_D;
 
-public class Duplicate_Array {
+public class Duplicate_Array_find {
     public static void main(String[] args) {
         int[] arr = {4, 2, 7, 2, 9, 4, 5, 2};
 
