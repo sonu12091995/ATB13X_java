@@ -1,4 +1,4 @@
-package Task_2_July_Inheritance.Single;
+package Task_2_July_Inheritance_constructor;
    /* Task 1: "Animal Sound Simulator"
 
 📄 Description:  (Single Inheritance + Method Call)

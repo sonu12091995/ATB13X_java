@@ -1,4 +1,4 @@
-package Task_2_July_Inheritance.Single;
+package Task_2_July_Inheritance_constructor;
 
 class User{
     void  login(){
