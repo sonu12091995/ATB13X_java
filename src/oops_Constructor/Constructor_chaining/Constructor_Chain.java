@@ -1,4 +1,4 @@
-package Task_2_July_Inheritance_constructor;
+package oops_Constructor.Constructor_chaining;
 /* Task 2: "Vehicle Constructor Chain"
 
 📄 Description:

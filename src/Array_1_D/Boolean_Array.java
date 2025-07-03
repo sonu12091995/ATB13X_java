@@ -7,6 +7,11 @@ public class Boolean_Array {
         for (boolean flag : flags) {
             System.out.println(flag);
         }
+        /*for(int i = 0; i<flags.length; i++)
+        {
+                        System.out.println(flags[i]);
+
+        }*/
 
         // second way
         boolean b[] = new boolean[3];

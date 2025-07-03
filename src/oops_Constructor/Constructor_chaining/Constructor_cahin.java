@@ -1,5 +1,9 @@
 package oops_Constructor.Constructor_chaining;
 
+
+/*Can we call the  constructor explicitly inside the another constructor
+✅ Yes, in Java, you can call a constructor explicitly inside another constructor
+ using the this() keyword.*/
 public class Constructor_cahin {
    //https://www.programiz.com/online-compiler/8WvWgRQ8F3SFP
 
