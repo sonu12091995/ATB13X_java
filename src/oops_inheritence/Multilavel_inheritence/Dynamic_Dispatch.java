@@ -8,6 +8,7 @@ public class Dynamic_Dispatch {
         g.home();
         g.gf();
 
+
         // Father can access own and grandfather function and comman function(home is comman)
         Fathher fe = new Son();
         fe.gf();

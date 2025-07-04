@@ -35,7 +35,7 @@ class loginFb {
     }
 }
 
-    public class Set_User_Password {
+    public class Set_Change_User_Password {
         public static void main(String[] args) {
             loginFb lo = new loginFb("Sonu Sharma", "Sonu123");
 

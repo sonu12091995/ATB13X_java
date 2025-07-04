@@ -27,7 +27,7 @@ class loginPage {
         this.password = password;
     }
 }
-public class access_with_get_set_method {
+public class Private_access_with_get_set_method {
     public static void main(String[] args) {
 
         loginPage lo = new loginPage("Sonu Sharma", "Sonu123");
