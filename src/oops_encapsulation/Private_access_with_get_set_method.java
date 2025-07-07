@@ -30,10 +30,11 @@ class loginPage {
 public class Private_access_with_get_set_method {
     public static void main(String[] args) {
 
-        loginPage lo = new loginPage("Sonu Sharma", "Sonu123");
+        loginPage lo = new loginPage("Sonu Sharma", "Sonu123");// constructor parameter value
         System.out.println(lo.getPassword()); //Sonu123
 
         System.out.println(lo.getUsername());// Sonu Sharma
+
 
 
 

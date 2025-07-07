@@ -21,12 +21,12 @@ class loginFb {
         return username;
     }
 
-    public void setUsername(String username, boolean isAdmin) {// set cond boolean isAdmin then change the username
-        if (isAdmin) {
-            this.username = username;
-        } else {
-            System.out.println("Nothing to change the username");
-        }
+    public void setUsername(String username,boolean isAdmin) {// set condition boolean isAdmin then change the username
+             if(isAdmin) {
+                 this.username = username;
+             }else {
+                 System.out.println("Nothing to change username");
+             }
     }
 
     public loginFb(String username, String password) {// Parameterized constructor
@@ -37,11 +37,12 @@ class loginFb {
 
     public class Set_Change_User_Password {
         public static void main(String[] args) {
-            loginFb lo = new loginFb("Sonu Sharma", "Sonu123");
+            loginFb lo = new loginFb("Sonu Sharma", "Sonu123");// constructor parameter value
 
             // change username
             lo.setUsername("123", true);// if false unable to change the username
             System.out.println("New username: " + lo.getUsername());// New username: 123
+
 
             // change password
             lo.setPassword("123", true);// if its false unable to change the password

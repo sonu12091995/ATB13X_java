@@ -20,11 +20,11 @@ class fireFox{
 }
 public class RealAutomation {
     public static void main(String[] args) {
-        commonToAll c1 = new commonToAll();
+      /*  commonToAll c1 = new commonToAll();
         c1.openBrowser();// Id browser launch
 
         fireFox f1 = new fireFox();
-        f1.openBrowser(); // firefox launch
+        f1.openBrowser(); // firefox launch*/
 
         chrome ch = new chrome();
         ch.openBrowser();// chrome launch
