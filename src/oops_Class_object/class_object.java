@@ -27,5 +27,8 @@ public class class_object {
     String food(int a){
         System.out.println("Walking");
         return null;
+
+
+
     }
 }

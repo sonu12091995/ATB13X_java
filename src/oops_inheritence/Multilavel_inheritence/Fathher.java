@@ -7,5 +7,11 @@ public class Fathher extends GrandFather{
 
     void home(){
         System.out.println("F-S2");
+
+    }
+
+    void home1(){
+        System.out.println("F-S2");
+
     }
 }
