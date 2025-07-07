@@ -13,7 +13,7 @@ class Dog extends Animal{
     }
 }
 
-public class Overloading_Examples {
+public class Overriding_Examples {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.sound();// Print bark
