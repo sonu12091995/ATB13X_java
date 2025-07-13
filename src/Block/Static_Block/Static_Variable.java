@@ -1,4 +1,4 @@
-package Static;
+package Block.Static_Block;
 
 class p {
     static int a = 10;

@@ -1,4 +1,4 @@
-package Static;
+package Block.IIB_Block;
 class A1{
     A1(){
         System.out.println("DC");
