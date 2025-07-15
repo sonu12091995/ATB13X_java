@@ -20,7 +20,7 @@ static {
     {
         System.out.println("This si the  block- 2");
 
-       }
+    }
 
        String name= "Sonu"; // variable out side the block
 
