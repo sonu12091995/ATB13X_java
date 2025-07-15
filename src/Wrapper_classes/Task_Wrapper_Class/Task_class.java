@@ -10,14 +10,17 @@ Primitive: 50
 Wrapper: 50
 Unboxed again: 50*/
 
-        // Boxing
-        int a =50;
-        Integer b = a;
-        System.out.println("Boxing" +a);
-        // unboxing
-        Integer b1 = 50;
-        int a1 =b1;
-        System.out.println("Unboxing "+a1);
+        // Primitive to Wrapper (Autoboxing)
+        int primitive = 50;
+        Integer wrapper = primitive; // autoboxing
+
+        // Wrapper to Primitive (Unboxing)
+        int unboxed = wrapper; // unboxing
+
+        // Output
+        System.out.println("Primitive: " + primitive);
+        System.out.println("Wrapper: " + wrapper);
+        System.out.println("Unboxed again: " + unboxed);
 
 
         /*Task 2: Converting String to Primitive Using Wrapper
@@ -26,9 +29,15 @@ Use Integer.parseInt() to convert a string (e.g. "123") into a primitive int and
 📤 Expected Output:
 Parsed number: 123*/
 
-         String s = "123";
-         Integer Iny_value = Integer.parseInt(s);
-        System.out.println("String to Primitiv " +Iny_value);
+        // String input
+        String numberString = "123";
+
+        // Convert String to primitive int using Integer wrapper
+        int parsedNumber = Integer.parseInt(numberString);
+
+        // Output
+        System.out.println("Parsed number: " + parsedNumber);
+
 
       /*Task 3: Convert int to Integer using Autoboxing
 📘 Description:
@@ -64,8 +73,8 @@ c.equals(d): true*/
         Integer b2 = 100;
 
         // Values outside the cache range
-        Integer c = 150;
-        Integer d = 150;
+        Integer c = 128;
+        Integer d = 128;
 
         System.out.println("Comparing Integer with " +(a2==b2));//true
 
