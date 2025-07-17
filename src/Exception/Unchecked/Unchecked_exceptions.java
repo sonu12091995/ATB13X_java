@@ -27,5 +27,10 @@ public class Unchecked_exceptions {
         }
 
 
+        // second way
+
+
+
+
     }
 }

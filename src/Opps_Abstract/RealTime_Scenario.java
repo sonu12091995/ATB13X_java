@@ -2,14 +2,16 @@ package Opps_Abstract;
 
 abstract class Engine{
 
-    abstract void stratEngine();
+    abstract int  stratEngine(int a, int b);
     abstract void stopEngine();
     abstract void checkEngine();
 }
 //implements all abstract method and call under the drive method
 class gear extends Engine{
-     void stratEngine(){
+
+     int  stratEngine(int a, int b){
         System.out.println("Strat the engine");
+        return a+b;
     }
      void stopEngine(){
         System.out.println("Stop the engine");
@@ -19,7 +21,7 @@ class gear extends Engine{
     }
 
     void drive(){
-        stratEngine();
+        stratEngine(12,14);
         stopEngine();
         checkEngine();
     }

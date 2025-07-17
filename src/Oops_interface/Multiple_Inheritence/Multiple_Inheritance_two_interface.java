@@ -3,7 +3,7 @@ package Oops_interface.Multiple_Inheritence;
 interface Animal { // Animal interface
      String name = "Sonu"; // Interface variables are public static final by default
 
-    void dog(); // Abstract method
+   void dog(); // Abstract method
 
     default void lion() { // Default method (optional to override)
         System.out.println("This is the lion method");
