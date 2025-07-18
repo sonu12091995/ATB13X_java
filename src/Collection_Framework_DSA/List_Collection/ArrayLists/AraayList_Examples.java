@@ -1,27 +1,46 @@
 package Collection_Framework_DSA.List_Collection.ArrayLists;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class AraayList_Examples {
     public static void main(String[] args) {
-        ArrayList arrayList = new ArrayList();
+        // Using generics and ArrayList
+        ArrayList arrayList = new ArrayList<>();
         arrayList.add("pramod");
         arrayList.add(null);
         arrayList.add("dutta");
-        arrayList.add("dutta"); // Duplicate is allowed.
-        arrayList.add(123); // Different data type is allowed.
-        System.out.println(arrayList);
-        System.out.println(arrayList.size());
+        arrayList.add("dutta"); // Duplicate is allowed
+        arrayList.add(123);     // Different data type is allowed (Object type)
 
-        List l = new ArrayList(); // Dynamic Dispatch
-        l.add("123");
-        l.add("456");
-        System.out.println(l);
-        System.out.println(l.isEmpty());// false
+        System.out.println("Original ArrayList: " + arrayList);
+        System.out.println("Size: " + arrayList.size());
 
-        List l2 = new ArrayList();
-        System.out.println(l2.isEmpty()); //Ture
+        System.out.println("Index of 'pramod': " + arrayList.indexOf("pramod"));
+        System.out.println("Last index of null: " + arrayList.lastIndexOf(null));
 
+        // Manually get first and last elements (getFirst/getLast don't exist in ArrayList)
+        System.out.println("First Element: " + arrayList.get(0));
+        System.out.println("Last Element: " + arrayList.get(arrayList.size() - 1));
+
+        // Iterator
+        System.out.println("\nUsing Iterator:");
+        Iterator iterator = arrayList.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        // Enhanced for loop
+        System.out.println("\nUsing Enhanced For Loop:");
+        for (Object item : arrayList) {
+            System.out.println(item);
+        }
+
+        // Traditional for loop
+        System.out.println("\nUsing Traditional For Loop:");
+        for (int i = 0; i < arrayList.size(); i++) {
+            System.out.println(arrayList.get(i));
+        }
     }
 }

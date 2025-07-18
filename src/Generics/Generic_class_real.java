@@ -19,14 +19,19 @@ class genericClass<T>{
         this.Data = data;
     }
 
-
+void display(){
+    System.out.println(Data);
+}
 
 
 }
 
 public class Generic_class_real {
     public static void main(String[] args) {
-        genericClass obj = new genericClass(23); // int data
+        genericClass obj = new genericClass(23);// int data
+        obj.display();
+
+
         genericClass obj1 = new genericClass("sonu");// string data
 
     }
