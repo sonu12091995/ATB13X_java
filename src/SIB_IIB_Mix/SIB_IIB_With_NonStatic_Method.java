@@ -27,7 +27,7 @@ public class SIB_IIB_With_NonStatic_Method {
     public static void main(String[] args) {
         Block b = new Block();  // Triggers IIB
         b.staticmethod();       // Call instance method
-        b.call();              // Call another instance method
+       b.call();            // Call another instance method
     }
 
 
