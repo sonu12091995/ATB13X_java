@@ -5,7 +5,7 @@ public class Coversion_all {
         String num  = "10";
         // String -> Wrapper
         Integer a  = Integer.parseInt(num);
-        Integer b = Integer.valueOf(num);
+
 
         // String to Primitive
         int aa = Integer.parseInt(num);
