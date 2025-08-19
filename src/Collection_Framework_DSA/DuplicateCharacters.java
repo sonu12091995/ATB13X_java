@@ -11,7 +11,7 @@ public class DuplicateCharacters
         // Convert to lowercase to avoid case sensitivity (optional)
         str = str.toLowerCase();
 
-        // Use HashMap to store character counts
+        // Use HashMap to store character counts frquancy
         Map<Character, Integer> charCountMap = new HashMap<>();
 
         for (char c : str.toCharArray()) {
