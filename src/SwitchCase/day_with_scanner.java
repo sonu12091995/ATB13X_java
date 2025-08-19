@@ -1,6 +1,6 @@
 package SwitchCase;
 
-import java.lang.classfile.instruction.SwitchCase;
+
 import java.util.Scanner;
 
 public class day_with_scanner {

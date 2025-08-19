@@ -30,7 +30,7 @@ public class LinkList_DynamicDispatch {
         System.out.println("----------Dynamic Dispatch------");
 
         List l = new LinkedList(); // Dynamic Dispatch using List interface
-        l.addFirst("first");
+        //l.addFirst("first");
         l.add("123");
         l.add("456");
         ((LinkedList) l).addLast("Last");

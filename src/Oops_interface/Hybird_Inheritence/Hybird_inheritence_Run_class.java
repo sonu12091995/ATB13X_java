@@ -1,7 +1,7 @@
 package Oops_interface.Hybird_Inheritence;
 
 
-// This is archive by two classes and two interface
+// This is archive by two classes and two interfaces
 public class Hybird_inheritence_Run_class extends Class_A implements Interface_A, Interface_B {
 
 
